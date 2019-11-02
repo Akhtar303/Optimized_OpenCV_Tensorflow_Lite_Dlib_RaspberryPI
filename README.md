@@ -16,7 +16,7 @@ It is made available binaryies and will save you countless hours not having to c
  sudo /etc/init.d/dphys-swapfile start
  
 
-#Related github repository and  Links
+# Related github repository and  Links
 
 https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/ & https://www.theimpossiblecode.com/blog/build-faster-opencv-raspberry-pi3/ for #guiding me through.
 https://github.com/opencv for Latest OpenCV binaries.
