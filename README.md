@@ -2,7 +2,9 @@
 Latest pre-compiled binary for OpenCV,Tensorflow Lite and Dlib for RaspberryPI. 
 
 It is made available binaryies and will save you countless hours not having to compile it yourself plus avoid worst looking compiling errors.
+
 Related github repository and  Links
+
 https://www.pyimagesearch.com/2017/10/09/optimizing-opencv-on-the-raspberry-pi/ & https://www.theimpossiblecode.com/blog/build-faster-opencv-raspberry-pi3/ for #guiding me through.
 https://github.com/opencv for Latest OpenCV binaries.
 https://github.com/01org/tbb for TBB binaries.
