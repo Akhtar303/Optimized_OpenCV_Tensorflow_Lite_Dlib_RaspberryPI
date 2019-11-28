@@ -81,7 +81,8 @@
  sudo ldconfig
  cd $cwd
  # Download .deb File For Optimized Opencv with TBB_Raspberry_pi And Some Prerequisite Libraries Optimized Opencv
- wget https://github.com/abhiTronix/OpenCV_Raspberry_pi_TBB/blob/master/opencv_4.0.0-pre-demo_armhf.deb
+ git clone https://github.com/abhiTronix/OpenCV_Raspberry_pi_TBB
+ cd OpenCV_Raspberry_pi_TBB
  sudo dpkg -i opencv_4.0.0-pre-demo_armhf.deb
  sudo ldconfig
  
