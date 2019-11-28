@@ -20,6 +20,9 @@
  # Installing pre-compiled binary of Pre-released & Stable OpenCV (4.0.0) along with TBB
  
  sudo apt-get -y update && sudo apt-get -y upgrade
+ sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=1024/g' /etc/dphys-swapfile
+ sudo /etc/init.d/dphys-swapfile stop
+ sudo /etc/init.d/dphys-swapfile start
  sudo apt-get -y purge wolfram-engine
  sudo apt-get -y purge libreoffice*
  sudo apt-get -y clean
@@ -116,6 +119,9 @@
  cd dlib
  sudo python3 setup.py install --compiler-flags "-mfpu=neon"
  cd $cwd
+ sudo sed -i 's/CONF_SWAPSIZE=1024/CONF_SWAPSIZE=100/g' /etc/dphys-swapfile
+ sudo /etc/init.d/dphys-swapfile stop
+ sudo /etc/init.d/dphys-swapfile start
  
  
  
