@@ -50,6 +50,8 @@
  sudo apt-get -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
  sudo apt-get -y install libopencv-dev
  sudo apt-get -y install gstreamer1.0-tools
+ sudo apt-get -y install libjasper1
+ sudo apt-get --yes --force-yes install libatlas-base-dev
  
  # Install Python Libraries
  sudo apt-get -y install python3-dev python3-pip
