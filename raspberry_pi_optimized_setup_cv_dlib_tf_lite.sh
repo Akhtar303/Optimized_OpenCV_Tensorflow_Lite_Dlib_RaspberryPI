@@ -7,16 +7,6 @@
 
 #########################################
 
- ## NOTE
-
- # Increase your swap file size (Swap files, or swap space, is space on a hard disk/memory card used as virtual memory as an extension to a system’s real memory (RAM))
- # sudo nano /etc/dphys-swapfile
- # from CONF_SWAPSIZE=100 to CONF_SWAPSIZE=1024
- # sudo /etc/init.d/dphys-swapfile stop
- # sudo /etc/init.d/dphys-swapfile start
- 
- 
-
  # Installing pre-compiled binary of Pre-released & Stable OpenCV (4.0.0) along with TBB
  
  sudo apt-get -y update && sudo apt-get -y upgrade
