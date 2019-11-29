@@ -1,20 +1,9 @@
 # Optimized_OpenCV_Tensorflow_Lite_Dlib For Raspberry Pi 3 B+ with Raspbian Stretch .
 Latest pre-compiled binary for OpenCV,Tensorflow Lite and Dlib for RaspberryPI. 
 
-It is made available binaryies and will save you countless hours not having to compile it yourself plus avoid worst looking compiling errors.
+It is made available binaryies and will save you countless alot of hours not having to compile it yourself plus avoid worst looking compiling errors.
 
- ## NOTE
 
- Increase your swap file size (Swap files, or swap space, is space on a hard disk/memory card used as virtual memory as an    extension to a system’s real memory (RAM))
- 
- sudo nano /etc/dphys-swapfile
- 
- from CONF_SWAPSIZE=100 to CONF_SWAPSIZE=1024
- 
- sudo /etc/init.d/dphys-swapfile stop
- 
- sudo /etc/init.d/dphys-swapfile start
- 
 
 # Related github repository and  Links
 
